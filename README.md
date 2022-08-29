@@ -32,7 +32,7 @@ $ cat conda_env/pip_pytorch0.2.txt | xargs -n 1 pip install
 ### 2. Downloading the dataset
 
 - Covid: https://github.com/lindawangg/COVID-Net
-Put the train and test folder under datasets/covid
+Put the `train` and `test` folder under `datasets/covid`
 
 ### 3. Training
 
