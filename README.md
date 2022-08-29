@@ -24,7 +24,11 @@ $ cd HealthyGAN/
 ### 1. Creating python environment
 
 ```bash
-$ bash create_env.sh
+$ conda create -n healthygan python=3.9
+$ conda activate healthygan
+$ conda install scikit-learn scikit-image -c anaconda
+$ pip install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu116
+$ pip install tensorflow
 ```
 
 ### 2. Downloading the dataset
