@@ -17,16 +17,14 @@ Automated anomaly detection from medical images, such as MRIs and X-rays, can si
 ### 0. Cloning the repository
 
 ```bash
-$ git clone https://github.com/mahfuzmohammad/Fixed-Point-GAN.git
-$ cd Fixed-Point-GAN/
+$ git clone https://github.com/mahfuzmohammad/HealthyGAN.git
+$ cd HealthyGAN/
 ```
 
 ### 1. Creating python environment
 
 ```bash
-$ conda env create -f conda_env/conda_env_pytorch0.2.yml
-$ source activate pytorch0.2
-$ cat conda_env/pip_pytorch0.2.txt | xargs -n 1 pip install
+$ bash create_env.sh
 ```
 
 ### 2. Downloading the dataset
