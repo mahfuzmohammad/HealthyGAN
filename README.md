@@ -27,6 +27,7 @@ $ cd HealthyGAN/
 $ conda create -n healthygan python=3.9
 $ conda activate healthygan
 $ conda install scikit-learn scikit-image -c anaconda
+$ pip install tqdm pandas
 $ pip install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu116
 $ pip install tensorflow
 ```
