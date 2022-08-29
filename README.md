@@ -2,7 +2,7 @@
 This repository provides the official PyTorch implementation of HealthyGAN.
 
 ## Paper
-[**HealthyGAN: Learning from Unannotated Medical Images to Detect Anomalies Associated with Human Disease**]
+**HealthyGAN: Learning from Unannotated Medical Images to Detect Anomalies Associated with Human Disease**
 
 [Md Mahfuzur Rahman Siddiquee](https://github.com/mahfuzmohammad)<sup>1,2</sup>, [Jay Shah]<sup>1,2</sup>, [Teresa Wu](https://search.asu.edu/profile/342678)<sup>1,2</sup>, [Catherine Chong](https://www.mayo.edu/research/faculty/chong-catherine-cat-ph-d/bio-20146998?_ga=2.180486759.1523948133.1540410816-481891997.1538001956)<sup>2,3</sup>, [Todd Schwedt](https://www.mayo.edu/research/faculty/schwedt-todd-j-m-d/bio-20091053)<sup>2,3</sup>, and [Baoxin Li](https://search.asu.edu/profile/747601)<sup>1,2</sup><br/>
 
