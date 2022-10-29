@@ -13,7 +13,7 @@ from sklearn.metrics import roc_curve, auc, classification_report, confusion_mat
 
 
 class Solver(object):
-    """Solver for training and testing Fixed-Point GAN."""
+    """Solver for training and testing HealthyGAN."""
 
     def __init__(self, data_loader, config):
         """Initialize configurations."""
@@ -186,7 +186,7 @@ class Solver(object):
                torch.sum(torch.abs(mask[:, :, :, 1:] - mask[:, :, :, :-1]))) / mask.numel()
 
     def train(self):
-        """Train Fixed-Point GAN within a single dataset."""
+        """Train HealthyGAN within a single dataset."""
         # Set data loader.
         if self.dataset in ['Covid']:
             data_loader = self.data_loader
@@ -383,7 +383,7 @@ class Solver(object):
 
 
     def test(self):
-        """Translate images using Fixed-Point GAN trained on a single dataset."""
+        """Translate images using HealthyGAN trained on a single dataset."""
         # Load the trained generator.
         self.restore_model(self.test_iters)
         
@@ -443,7 +443,7 @@ class Solver(object):
 
 
     def testAUC(self):
-        """Translate images using Fixed-Point GAN trained on a single dataset."""
+        """Translate images using HealthyGAN trained on a single dataset."""
         # Load the trained generator.
         self.restore_model(self.test_iters)
 
