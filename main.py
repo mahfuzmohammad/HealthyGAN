@@ -29,7 +29,7 @@ def main(config):
         data_loader = get_loader(config.image_dir, config.image_size, config.batch_size,
                                  'Covid', config.mode, config.num_workers)
         
-    # Solver for training and testing Fixed-Point GAN.
+    # Solver for training and testing HealthyGAN.
     solver = Solver(data_loader, config)
     
 
